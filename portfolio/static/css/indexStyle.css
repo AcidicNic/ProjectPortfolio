@@ -1,0 +1,46 @@
+{% load staticfiles %}
+body { background-color:#e0e0e0; }
+
+#page-wrap { width: 90%; margin: 5% auto; margin: 0 auto; }
+
+p { margin: 0 0 15px 0; font-size: 20px auto; color: #262626; font-family: RW; }
+
+#title-area { color: #262626; font-family: RE; margin: 0 auto; text-align: center; padding: 25px; padding-top: 5px; font-size: 30px; }
+
+#title1, #title2, #title3 { font-family: RE; margin: 0 auto; text-align: left; font-size: 40px; color: #3ed339; display: table; margin-bottom: 7px;}
+#title2, #title3 { margin-top: 4%; }
+#title1 { margin-top: 4%; }
+
+@font-face { font-family: CI; src: url('../fonts/CURIOUS-INCIDENT.ttf'); }
+@font-face { font-family: leixo; src: url('../fonts/LEIXO.ttf'); }
+@font-face { font-family: RW; src: url('../fonts/Raleway.ttf'); }
+@font-face { font-family: RE; src: url('../fonts/Rounded-Elegance.ttf'); }
+
+
+#pic1,#pic2 {border-color: #262626; border-radius: 10px; border-width: 5px; background-color: #262626; }
+#text1,#text2 { color: #262626; font-size: 20px auto; font-family: RW; }
+
+#main1 { width: 90%; margin: 0 auto; clear: both; margin-top: 50px; display: table;}
+#pic1 { float: right; }
+#text1 { float: left; margin: 0 0 15px 0; text-align: left; }
+
+#pic1,#pic2,#text1,#text2 {width: 45%; margin:1%; margin-bottom: 3%; }
+
+#main2 { width: 90%; margin: 0 auto; clear: both; margin-top: 50px; display: table; }
+#pic2 { float: left; }
+#text2 { float: right; margin: 0 0 15px 0; text-align: left; }
+
+
+#menu {padding: 10px; margin: 0 auto; color: #262626; text-align:center; border-style:solid; border-color: #262626; font-family: RW; width:95% ; padding-bottom:10px; display: flex;align-items: center; border-width: 2px; border-radius: 5px; margin-bottom: 45px; }
+
+#d1,#d2,#d3,#d4 { border-width:5px; padding: 4px; width:25%; float: left; border-color: #262626; text-align: color: #262626;}
+#d1,#d2,#d3,#d4 { border-right-style: solid; border-left-style: solid; border-right-width: 1px; border-left-width: 1px; }
+
+
+
+.dropdown { position: relative; display: inline-block;}
+.dropdown:hover { color: #3ed339; border-color: #3ed339; }
+/* .dropdown-content { display: none; position: absolute; background-color: rgba(0,0,0,0.9); padding: 2px; z-index: 1; color: #262626; }
+.dropdown:hover .dropdown-content { display: block; }
+.dropdown-content:hover { color: #3ed339; border-color: #3ed339; }
+.dropdown-content span { margin: 3px; padding: 12px 16px; display: block; border-style: solid; border-color: #262626; border-width: 1px; } */
